@@ -39,9 +39,9 @@ export default function Footer() {
               ))}
               <div className="d-flex pt-2">
                 {socialIcons.slice(0, 4).map((val, index) => (
-                  <a className="btn btn-outline-light btn-social" href="">
+                  <button type="button" className="btn btn-outline-light btn-social" aria-label="Social link">
                     {val.icon}
-                  </a>
+                  </button>
                 ))}
               </div>
             </div>
@@ -53,9 +53,9 @@ export default function Footer() {
                       {section.header}
                     </h6>
                     {section.UnitItem.map((item, itemIndex) => (
-                      <a className="btn btn-link" href="" key={itemIndex}>
+                      <button type="button" className="btn btn-link" key={itemIndex} style={{background: 'none', border: 'none', padding: 0, color: 'inherit', textAlign: 'left'}}>
                         {item.name}
-                      </a>
+                      </button>
                     ))}
                   </div>
                 ))}

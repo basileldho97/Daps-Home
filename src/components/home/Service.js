@@ -19,7 +19,7 @@ export default function Services() {
             {services.map((item, index) => (
               <div className="col-lg-4 col-md-6" key={index}>
                 <Fade  direction="up" delay={index * 100}>
-                  <a className="service-item rounded" href="">
+                  <button type="button" className="service-item rounded" style={{background: 'none', border: 'none', padding: 0, width: '100%'}}>
                     <div className="service-icon bg-transparent border rounded p-1">
                       <div className="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                         {item.icon}
@@ -27,7 +27,7 @@ export default function Services() {
                     </div>
                     <h5 className="mb-3">{item.name}</h5>
                     <p className="text-body mb-0">{item.discription}</p>
-                  </a>
+                  </button>
                 </Fade>
               </div>
             ))}

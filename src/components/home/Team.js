@@ -1,6 +1,5 @@
 import React from "react";
 import { socialIcons, team } from "../data/Data";
-import { Link } from "react-router-dom";
 import CommonHeading from "../common/CommonHeading";
 import team1 from "../../images/team-1.jpg"
 import team2 from "../../images/team-2.jpg"
@@ -27,24 +26,15 @@ export default function Teams() {
                 <div className="position-relative">
                   <img className="img-fluid" src={team1} alt="img" />
                   <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                    <a
-                      className="btn btn-square btn-primary mx-1"
-                      href=""
-                    >
+                    <button type="button" className="btn btn-square btn-primary mx-1" aria-label="Social link">
                       {socialIcons[0].icon}
-                    </a>
-                    <a
-                      className="btn btn-square btn-primary mx-1"
-                      href=""
-                    >
+                    </button>
+                    <button type="button" className="btn btn-square btn-primary mx-1" aria-label="Social link">
                       {socialIcons[1].icon}
-                    </a>
-                    <a
-                      className="btn btn-square btn-primary mx-1"
-                      href=""
-                    >
+                    </button>
+                    <button type="button" className="btn btn-square btn-primary mx-1" aria-label="Social link">
                       {socialIcons[2].icon}
-                    </a>
+                    </button>
                   </div>
                 </div>
                 <div className="text-center p-4 mt-3">
@@ -62,24 +52,15 @@ export default function Teams() {
                 <div className="position-relative">
                   <img className="img-fluid" src={team2} alt="img" />
                   <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                    <a
-                      className="btn btn-square btn-primary mx-1"
-                      href=""
-                    >
+                    <button type="button" className="btn btn-square btn-primary mx-1" aria-label="Social link">
                       {socialIcons[0].icon}
-                    </a>
-                    <a
-                      className="btn btn-square btn-primary mx-1"
-                      href=""
-                    >
+                    </button>
+                    <button type="button" className="btn btn-square btn-primary mx-1" aria-label="Social link">
                       {socialIcons[1].icon}
-                    </a>
-                    <a
-                      className="btn btn-square btn-primary mx-1"
-                      href=""
-                    >
+                    </button>
+                    <button type="button" className="btn btn-square btn-primary mx-1" aria-label="Social link">
                       {socialIcons[2].icon}
-                    </a>
+                    </button>
                   </div>
                 </div>
                 <div className="text-center p-4 mt-3">
@@ -97,24 +78,15 @@ export default function Teams() {
                 <div className="position-relative">
                   <img className="img-fluid" src={team3} alt="img" />
                   <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                    <a
-                      className="btn btn-square btn-primary mx-1"
-                      href=""
-                    >
+                    <button type="button" className="btn btn-square btn-primary mx-1" aria-label="Social link">
                       {socialIcons[0].icon}
-                    </a>
-                    <a
-                      className="btn btn-square btn-primary mx-1"
-                      href=""
-                    >
+                    </button>
+                    <button type="button" className="btn btn-square btn-primary mx-1" aria-label="Social link">
                       {socialIcons[1].icon}
-                    </a>
-                    <a
-                      className="btn btn-square btn-primary mx-1"
-                      href=""
-                    >
+                    </button>
+                    <button type="button" className="btn btn-square btn-primary mx-1" aria-label="Social link">
                       {socialIcons[2].icon}
-                    </a>
+                    </button>
                   </div>
                 </div>
                 <div className="text-center p-4 mt-3">
@@ -132,24 +104,15 @@ export default function Teams() {
                 <div className="position-relative">
                   <img className="img-fluid" src={team4} alt="img" />
                   <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                    <a
-                      className="btn btn-square btn-primary mx-1"
-                      href=""
-                    >
+                    <button type="button" className="btn btn-square btn-primary mx-1" aria-label="Social link">
                       {socialIcons[0].icon}
-                    </a>
-                    <a
-                      className="btn btn-square btn-primary mx-1"
-                      href=""
-                    >
+                    </button>
+                    <button type="button" className="btn btn-square btn-primary mx-1" aria-label="Social link">
                       {socialIcons[1].icon}
-                    </a>
-                    <a
-                      className="btn btn-square btn-primary mx-1"
-                      href=""
-                    >
+                    </button>
+                    <button type="button" className="btn btn-square btn-primary mx-1" aria-label="Social link">
                       {socialIcons[2].icon}
-                    </a>
+                    </button>
                   </div>
                 </div>
                 <div className="text-center p-4 mt-3">

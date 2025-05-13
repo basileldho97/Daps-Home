@@ -1,5 +1,4 @@
 import React from "react";
-import Heading from "../common/Heading";
 import { about } from "../data/Data";
 import { Fade } from "react-awesome-reveal";
 import about1 from "../../images/about-1.jpg";
@@ -74,9 +73,9 @@ export default function About() {
                 </div>
               </div>
               <Fade direction="up" delay={1400}>
-              <a className="btn btn-primary py-3 px-5 mt-2" href="">
+              <button type="button" className="btn btn-primary py-3 px-5 mt-2">
                 Explore More
-              </a>
+              </button>
               </Fade>
             </div>
             <div className="col-lg-6">

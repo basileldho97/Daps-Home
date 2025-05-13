@@ -33,8 +33,10 @@ export default function Contact() {
             </div>
             <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
               <iframe
+                title="Daps Home Location Map"
                 class="position-relative rounded w-100 h-100"
-                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3907.3105575370573!2d76.1435361759282!3d11.672388888536176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1747155492506!5m2!1sen!2sin"                frameborder="0"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3907.3105575370573!2d76.1435361759282!3d11.672388888536176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1747155492506!5m2!1sen!2sin"
+                frameborder="0"
                 style={{ minHeight: "350px", border: "0" }}
                 allowfullscreen=""
                 aria-hidden="false"

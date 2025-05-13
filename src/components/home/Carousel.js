@@ -41,12 +41,9 @@ export default function Carousel() {
                 <div className="row">
                   <div className="col-6 text-end">
                     <Slide direction="left" delay={200}>
-                      <a
-                        href=""
-                        className="btn btn-primary py-md-3 px-md-5 me-3"
-                      >
+                      <button type="button" className="btn btn-primary py-md-3 px-md-5 me-3">
                         Our Room
-                      </a>
+                      </button>
                     </Slide>
                   </div>
                   <div className="col-6 text-start">
@@ -86,12 +83,9 @@ export default function Carousel() {
                 <div className="row">
                   <div className="col-6 text-end">
                     <Slide direction="left" delay={200}>
-                      <a
-                        href=""
-                        className="btn btn-primary py-md-3 px-md-5 me-3"
-                      >
+                      <button type="button" className="btn btn-primary py-md-3 px-md-5 me-3">
                         Our Room
-                      </a>
+                      </button>
                     </Slide>
                   </div>
                   <div className="col-6 text-start">
