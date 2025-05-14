@@ -6,7 +6,7 @@ import { faLock } from '@fortawesome/free-solid-svg-icons';
 export const navList = [
   {
     id: 1,
-    path: "/hotel-project-react/",
+    path: "/",
     text: "Home",
   },
   {
