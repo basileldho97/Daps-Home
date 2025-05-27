@@ -35,7 +35,7 @@ export default function Carousel() {
                 </Slide>
                 <Fade delay={300}>
                   <h1 className="display-3 text-white mb-4">
-                    Discover A Brand Luxurious Appartment
+                    FAMILY'SLuxurious Appartment
                   </h1>
                 </Fade>
                 <div className="row">
@@ -77,7 +77,7 @@ export default function Carousel() {
                 </Slide>
                 <Fade delay={300}>
                   <h1 className="display-3 text-white mb-4">
-                    Discover A Brand Luxurious Appartment
+                    FAMILY'SLuxurious Appartment
                   </h1>
                 </Fade>
                 <div className="row">

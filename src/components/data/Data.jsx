@@ -73,14 +73,14 @@ export const socialIcons = [
 export const carouselData = [
   {
     // img: "../../images/carousel-1.jpg",
-    title: "Discover A Brand Luxurious Appartment",
+    title: "FAMILY'SLuxurious Appartment",
     subtitle: "luxury living",
     btn1: "Our Room",
     btn2: "Book Room",
   },
   {
     // img: "../images/carousel-2.jpg",
-    title: "Discover A Brand Luxurious Appartment",
+    title: "FAMILY'SLuxurious Appartment",
     subtitle: "luxury living",
     btn1: "Our Room",
     btn2: "Book Room",
