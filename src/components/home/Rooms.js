@@ -4,6 +4,7 @@ import { facility, roomItems } from "../data/Data";
 import room1 from "../../images/room-1.jpg";
 import room2 from "../../images/room-2.jpg";
 import room3 from "../../images/room-3.jpg";
+import room4 from "../../images/room-4.jpg";
 import { Link } from "react-router-dom";
 
 
@@ -199,7 +200,7 @@ export default function Rooms() {
               </div>
               <div className="col-lg-4 col-md-6 project-grid-box all appcustomization webdesign">
                 <div className="project-single-item-3">
-                <Link to="/rooms"><img src={room1} alt="project " /></Link>
+                <Link to="/rooms"><img src={room4} alt="project " /></Link>
                   <small
                     className="position-absolute start-0  translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4"
                     style={{ top: "200px" }}

@@ -357,6 +357,22 @@ export const roomItems = [
     yellowbtn: "View Detail",
     darkbtn: "book now",
   },
+  {
+    img: "../images/room-4.jpg",
+    // price: "$110/night",
+    name: "Non furnished Apartment",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    // description:
+    //   "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
 ];
 
 export const facility = [

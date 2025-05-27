@@ -25,10 +25,9 @@ export default function About() {
               </h1>
               </Fade>
               <Fade direction="up" delay={500}>
-              <p className="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
+              <p className="mb-4 text-xl">
+                Experience unparalleled luxury and comfort in our premium apartments designed for sophisticated living. 
+                DAPS Home offers state-of-the-art amenities, elegant interiors, and a prime location for a refined lifestyle.
               </p>
               </Fade>
               <div className="row g-3 pb-4">
