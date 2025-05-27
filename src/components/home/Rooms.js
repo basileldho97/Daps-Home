@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 export default function Rooms() {
 
 
-  const phone = '+919746842304'; // Replace with your number
+  const phone = '+917558944944'; // Replace with your number
   const message = 'Hello, I am interested in booking a stay at your resort.';
   const whatsappLink = `https://wa.me/${phone}?text=${encodeURIComponent(message,message)}`;
 
