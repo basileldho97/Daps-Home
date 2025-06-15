@@ -3,17 +3,11 @@ import { socialIcons, team } from "../data/Data";
 import CommonHeading from "../common/CommonHeading";
 import team1 from "../../images/team-1.jpg"
 import team2 from "../../images/team-2.jpg"
-import team3 from "../../images/team-3.jpg"
-import team4 from "../../images/team-4.jpg"
 
 
 const phone = '+96566188947'; // Replace with your number
 const message = 'Hello, I am interested in booking a stay at your Apartment.';
-const whatsappLink = `https://wa.me/${phone}?text=${encodeURIComponent(message, message)}`;
-
-const phone2 = '+96565080579'; // Replace with your number
-const message2 = 'Hello, I am interested in booking a stay at your Apartment.';
-const whatsappLink2 = `https://wa.me/${phone}?text=${encodeURIComponent(message, message)}`;
+const whatsappLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
 
 
@@ -83,8 +77,8 @@ export default function Teams() {
                   <h5 className="fw-bold mb-0">{team[1].name}</h5>
                   <small>{team[1].designation}</small>
                   <a className=" w-100"
-                    href={whatsappLink2} target="_blank" rel="noopener noreferrer">
-                    +96565080579
+                    href={whatsappLink} target="_blank" rel="noopener noreferrer">
+                    +96566188947
                   </a>
                 </div>
               </div>
