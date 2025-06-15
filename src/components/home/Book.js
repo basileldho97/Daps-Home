@@ -3,7 +3,7 @@ import React from "react";
 export default function Book() {
 
   const phone = '+917558944944'; // Replace with your number
-  const message = 'Hello, I am interested in booking a stay at your resort.';
+  const message = 'Hello, I am interested in booking a stay at your Apartment.';
   const whatsappLink = `https://wa.me/${phone}?text=${encodeURIComponent(message,message)}`;
 
   return (

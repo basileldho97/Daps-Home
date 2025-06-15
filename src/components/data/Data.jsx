@@ -141,13 +141,13 @@ export const services = [
 export const team = [
   {
     // // image: "../images/team-1.jpg",
-    name: "Full Name",
-    designation: "Designation",
+    name: "Prajeesh George",
+    designation: "",
   },
   {
     // // image: "../images/team-2.jpg",
-    name: "Full Name",
-    designation: "Designation",
+    name: "Darwin Babtain",
+    designation: "",
   },
   {
     // // image: "../images/team-3.jpg",
@@ -361,6 +361,22 @@ export const roomItems = [
     img: "../images/room-4.jpg",
     // price: "$110/night",
     name: "Non furnished Apartment",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    // description:
+    //   "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  {
+    img: "../images/room-4.jpg",
+    // price: "$110/night",
+    name: "semi furnished Apartment",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,

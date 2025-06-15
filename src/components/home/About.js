@@ -13,68 +13,69 @@ export default function About() {
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6">
-            <Fade direction="up" delay={100}>
-              <h6 className="section-title text-start text-primary text-uppercase">
-                About Us
-              </h6>
+              <Fade direction="up" delay={100}>
+                <h6 className="section-title text-start text-primary text-uppercase">
+                  About Us
+                </h6>
               </Fade>
               <Fade direction="up" delay={300}>
-              <h1 className="mb-4">
-                Welcome to{" "}
-                <span className="text-primary text-uppercase">Daps Home</span>
-              </h1>
+                <h1 className="mb-4">
+                  Welcome to{" "}
+                  <span className="text-primary text-uppercase">Daps Home</span>
+                </h1>
               </Fade>
               <Fade direction="up" delay={500}>
-              <p className="mb-4 text-xl">
-                Experience unparalleled luxury and comfort in our premium apartments designed for sophisticated living. 
-                DAPS Home offers state-of-the-art amenities, elegant interiors, and a prime location for a refined lifestyle.
-              </p>
+                <p className="mb-4 text-xl">
+                  Experience unparalleled luxury and comfort in our premium family-friendly apartments, designed for sophisticated and spacious living. 
+                  DAPS Home offers state-of-the-art amenities, elegant interiors, and a prime location — creating the perfect environment for families 
+                  seeking a refined and convenient lifestyle.
+                </p>
               </Fade>
               <div className="row g-3 pb-4">
                 <div className="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
-                <Fade direction="up" delay={700}>
-                  <div className="border rounded p-1">
-                    <div className="border rounded text-center p-4">
-                      {about[0].icon}
-                      <h2 className="mb-1" data-toggle="counter-up">
-                        {about[0].count}
-                      </h2>
-                      <p className="mb-0">{about[0].text}</p>
+                  <Fade direction="up" delay={700}>
+                    <div className="border rounded p-1">
+                      <div className="border rounded text-center p-4">
+                        {about[0].icon}
+                        <h2 className="mb-1" data-toggle="counter-up">
+                          {about[0].count}
+                        </h2>
+                        <p className="mb-0">{about[0].text}</p>
+                      </div>
                     </div>
-                  </div>
                   </Fade>
                 </div>
                 <div className="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
-                <Fade direction="up" delay={900}>
-                  <div className="border rounded p-1">
-                    <div className="border rounded text-center p-4">
-                      {about[1].icon}
-                      <h2 className="mb-1" data-toggle="counter-up">
-                        {about[1].count}
-                      </h2>
-                      <p className="mb-0">{about[1].text}</p>
+                  <Fade direction="up" delay={900}>
+                    <div className="border rounded p-1">
+                      <div className="border rounded text-center p-4">
+                        {about[1].icon}
+                        <h2 className="mb-1" data-toggle="counter-up">
+                          {about[1].count}
+                        </h2>
+                        <p className="mb-0">{about[1].text}</p>
+                      </div>
                     </div>
-                  </div>
                   </Fade>
                 </div>
                 <div className="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
-                <Fade direction="up" delay={1200}>
-                  <div className="border rounded p-1">
-                    <div className="border rounded text-center p-4">
-                      {about[2].icon}
-                      <h2 className="mb-1" data-toggle="counter-up">
-                        {about[2].count}
-                      </h2>
-                      <p className="mb-0">{about[2].text}</p>
+                  <Fade direction="up" delay={1200}>
+                    <div className="border rounded p-1">
+                      <div className="border rounded text-center p-4">
+                        {about[2].icon}
+                        <h2 className="mb-1" data-toggle="counter-up">
+                          {about[2].count}
+                        </h2>
+                        <p className="mb-0">{about[2].text}</p>
+                      </div>
                     </div>
-                  </div>
                   </Fade>
                 </div>
               </div>
               <Fade direction="up" delay={1400}>
-              <button type="button" className="btn btn-primary py-3 px-5 mt-2">
-                Explore More
-              </button>
+                <button type="button" className="btn btn-primary py-3 px-5 mt-2">
+                  Explore More
+                </button>
               </Fade>
             </div>
             <div className="col-lg-6">

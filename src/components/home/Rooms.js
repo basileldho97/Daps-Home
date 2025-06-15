@@ -14,7 +14,7 @@ export default function Rooms() {
 
 
   const phone = '+917558944944'; // Replace with your number
-  const message = 'Hello, I am interested in booking a stay at your resort.';
+  const message = 'Hello, I am interested in booking a stay at your Apartment.';
   const whatsappLink = `https://wa.me/${phone}?text=${encodeURIComponent(message,message)}`;
 
 
@@ -268,7 +268,7 @@ export default function Rooms() {
                       <div className="info">
                         <div className="p-4 mt-2">
                           <div className="d-flex flex-column flex-md-row justify-content-between mb-3">
-                            <h5 className="mb-0">{roomItems[2].name}</h5>
+                            <h5 className="mb-0">{roomItems[5].name}</h5>
                             <div className="ps-md-2 mt-2 mt-md-0">
                               {roomItems[2].star}
                             </div>

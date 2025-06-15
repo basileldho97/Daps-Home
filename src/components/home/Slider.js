@@ -4,10 +4,10 @@ import { testimonial } from "../data/Data";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import testimonial1 from "../../images/testimonial-1.jpg"
-import testimonial2 from "../../images/testimonial-2.jpg"
-import testimonial3 from "../../images/testimonial-3.jpg"
-import testimonial4 from "../../images/testimonial-4.jpg"
+// import testimonial1 from "../../images/testimonial-1.jpg"
+// import testimonial2 from "../../images/testimonial-2.jpg"
+// import testimonial3 from "../../images/testimonial-3.jpg"
+// import testimonial4 from "../../images/testimonial-4.jpg"
 
 export default function Sliders() {
   const settings = {
@@ -50,12 +50,12 @@ export default function Sliders() {
                     <div style={{ padding: "20px" }}>
                       <p style={{ color: '#fff' }}>{testimonial[0].description}</p>
                       <div className="d-flex align-items-center">
-                        <img
+                        {/* <img
                           className="img-fluid flex-shrink-0"
                           src={testimonial1}
                           style={{ width: "45px", height: "45px", borderRadius: '50%' }}
                           alt="testimonial"
-                        />
+                        /> */}
                         <div className="ps-3">
                           <h6 className="fw-bold mb-1" style={{ color: '#fff' }}>{testimonial[0].name}</h6>
                           <small style={{ color: '#fff' }}>{testimonial[0].profession}</small>
@@ -75,12 +75,12 @@ export default function Sliders() {
                     <div style={{ padding: "20px" }}>
                       <p style={{ color: '#fff' }}>{testimonial[1].description}</p>
                       <div className="d-flex align-items-center">
-                        <img
+                        {/* <img
                           className="img-fluid flex-shrink-0"
                           src={testimonial4}
                           style={{ width: "45px", height: "45px", borderRadius: '50%' }}
                           alt="testimonial"
-                        />
+                        /> */}
                         <div className="ps-3">
                           <h6 className="fw-bold mb-1" style={{ color: '#fff' }}>{testimonial[1].name}</h6>
                           <small style={{ color: '#fff' }}>{testimonial[1].profession}</small>
@@ -100,12 +100,12 @@ export default function Sliders() {
                     <div style={{ padding: "20px" }}>
                       <p style={{ color: '#fff' }}>{testimonial[2].description}</p>
                       <div className="d-flex align-items-center">
-                        <img
+                        {/* <img
                           className="img-fluid flex-shrink-0"
                           src={testimonial2}
                           style={{ width: "45px", height: "45px", borderRadius: '50%' }}
                           alt="testimonial"
-                        />
+                        /> */}
                         <div className="ps-3">
                           <h6 className="fw-bold mb-1" style={{ color: '#fff' }}>{testimonial[2].name}</h6>
                           <small style={{ color: '#fff' }}>{testimonial[2].profession}</small>
@@ -125,12 +125,12 @@ export default function Sliders() {
                     <div style={{ padding: "20px" }}>
                       <p style={{ color: '#fff' }}>{testimonial[3].description}</p>
                       <div className="d-flex align-items-center">
-                        <img
+                        {/* <img
                           className="img-fluid flex-shrink-0"
                           src={testimonial3}
                           style={{ width: "45px", height: "45px", borderRadius: '50%' }}
                           alt="testimonial"
-                        />
+                        /> */}
                         <div className="ps-3">
                           <h6 className="fw-bold mb-1" style={{ color: '#fff' }}>{testimonial[3].name}</h6>
                           <small style={{ color: '#fff' }}>{testimonial[3].profession}</small>
