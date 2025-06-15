@@ -78,7 +78,7 @@ export default function Teams() {
                   <small>{team[1].designation}</small>
                   <a className=" w-100"
                     href={whatsappLink} target="_blank" rel="noopener noreferrer">
-                    +96566188947
+                    +96565080579
                   </a>
                 </div>
               </div>
