@@ -10,6 +10,11 @@ const message = 'Hello, I am interested in booking a stay at your Apartment.';
 const whatsappLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
 
+const phone2 = '+96566188947'; // Replace with your number
+const message2 = 'Hello, I am interested in booking a stay at your Apartment.';
+const whatsappLink2 = `https://wa.me/${phone2}?text=${encodeURIComponent(message2)}`;
+
+
 
 export default function Teams() {
   return (
@@ -77,7 +82,7 @@ export default function Teams() {
                   <h5 className="fw-bold mb-0">{team[1].name}</h5>
                   <small>{team[1].designation}</small>
                   <a className=" w-100"
-                    href={whatsappLink} target="_blank" rel="noopener noreferrer">
+                    href={whatsappLink2} target="_blank" rel="noopener noreferrer">
                     +96565080579
                   </a>
                 </div>
