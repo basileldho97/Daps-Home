@@ -146,7 +146,7 @@ export const team = [
   },
   {
     // // image: "../images/team-2.jpg",
-    name: "Darwin Babtain",
+    name: "Darwin George",
     designation: "",
   },
   {
@@ -213,7 +213,7 @@ export const footerContact = [
   },
   {
     icon: <i className="fa fa-phone-alt me-3"></i>,
-    name: "+91 6238226874",
+    name: "+91 7558944944",
   },
   {
     icon: <i className="fa fa-envelope me-3"></i>,
@@ -225,7 +225,7 @@ export const contact = [
   {
     icon: <i className="fa fa-phone-alt me-3"></i>,
     title: "Booking",
-    email: "+91 6238226874",
+    email: "+91 7558944944",
   },
   {
     icon: <i className="fa fa-phone-alt me-3"></i>,
