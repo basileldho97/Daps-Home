@@ -20,7 +20,7 @@ export default function About() {
               </Fade>
               <Fade direction="up" delay={300}>
                 <h1 className="mb-4">
-                  Welcome to{" "}
+                  Welcome To{" "}
                   <span className="text-primary text-uppercase">Daps Home</span>
                 </h1>
               </Fade>
