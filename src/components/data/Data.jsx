@@ -209,7 +209,7 @@ export const footerItem = [
 export const footerContact = [
   {
     icon: <i className="fa fa-map-marker-alt me-3"></i>,
-    name: "12/120, Kulangara Channali, chendakuni, Meenangadi, Kerala 673591",
+    name: "  Channali, chendakuni, Meenangadi, Kerala 673591",
   },
   {
     icon: <i className="fa fa-phone-alt me-3"></i>,
